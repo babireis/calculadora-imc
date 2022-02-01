@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    background: rgb(246, 247, 245);
+    width: 700px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 3.5rem calibri;
+    color: rgb(2, 103, 110);    
+    margin: 20px;
+  }
+
+  .sub-title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: italic 2.0rem arial;
+    color: rgb(2, 103, 110);
+    padding-left: 100px;
+    margin: 10px;  
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 75%;
+    background-color: rgb(197, 212, 214);
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(1, 45, 48);
+  }
+  
+  .input {
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .input input {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 1.5rem calibri;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+  }
+
+  input:focus {
+    box-shadow: 0 0 10px rgb(248, 3, 3);
+  }
+  
+  .input label {
+    font: italic 1.5rem calibri;
+    padding-right: 20px;
+  }
+  
+  button{
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem calibri;
+    background: rgb(2, 103, 110);
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+  button:hover {
+    background: rgb(1, 45, 48);
+    color: #fff;
+  }
+
+  
+  .result{
+    display: flex;
+    align-items: top;
+    width: 600px;
+    height: 100px;
+    border-radius: 5px;
+    font: 1.5rem calibri;
+    box-shadow: 0px 0px 10px black;
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    margin-bottom: 20px;
+  }
+
